@@ -4,6 +4,19 @@
 https://console.developers.google.com/apis/api/youtube.googleapis.com/credentials?
 
 https://developers.google.com/oauthplayground/
+```
+POST https://youtube.googleapis.com/youtube/v3/playlistItems?part=snippet
+
+{
+  "snippet": {
+    "playlistId": "????????????",
+    "resourceId": {
+      "kind": "youtube#video",
+      "videoId": "????????"
+    }
+  }
+} 
+```
 
 https://developers.google.com/youtube/v3/docs/search/list
 
